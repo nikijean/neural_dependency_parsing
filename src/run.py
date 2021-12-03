@@ -46,7 +46,7 @@ if __name__ == "__main__":
     train(parser, train_data, dev_data, output_path, batch_size=1024, n_epochs=10, lr=0.0005)
 
     if not debug:
-        # will not train the model but will instead use the trained model to process the test data
+        # test the results of the trained model
         print(80 * "=")
         print("TESTING")
         print(80 * "=")
